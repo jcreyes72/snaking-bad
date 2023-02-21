@@ -1,0 +1,28 @@
+.gameboard-wrapper {
+   background-color: rgb(160, 188, 255);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   height: 100%;
+   margin: 0;
+}
+
+
+.gameboard {
+    outline: 2px solid rgb(248, 255, 144);
+    width: 50%;
+    height: 70%;
+}
+
+.row {
+    height: 10%;
+    outline: 1px solid magenta;
+}
+
+.cell {
+    width: 10%;
+    height: 100%;
+    outline: 1px solid navy;
+    display: inline-block;
+}
